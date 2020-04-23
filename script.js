@@ -6,7 +6,7 @@ let rot = 0
 
 function setup() {
   createCanvas(700, 700);
-  background(220);
+  background(0);
   rectMode(CENTER);
 }
 
@@ -35,5 +35,6 @@ function keyPressed() {
     speed = -1;
   } else {
     speed = 0
+    fill(random(60, 255), random(60, 255), random(60, 255));
   }
 }
