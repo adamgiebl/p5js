@@ -8,6 +8,7 @@ function setup() {
   createCanvas(700, 700);
   background(0);
   rectMode(CENTER);
+  noStroke();
 }
 
 function draw() {
@@ -35,6 +36,6 @@ function keyPressed() {
     speed = -1;
   } else {
     speed = 0
-    fill(random(60, 255), random(60, 255), random(60, 255));
+    fill(random(0, 255), random(0, 255), random(0, 255));
   }
 }
