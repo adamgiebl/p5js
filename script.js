@@ -8,7 +8,6 @@ function setup() {
   createCanvas(700, 700);
   background(0);
   rectMode(CENTER);
-  noStroke();
 }
 
 function draw() {
